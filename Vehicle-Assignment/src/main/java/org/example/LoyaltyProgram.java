@@ -1,4 +1,6 @@
 package org.example;
 
-public class LoyaltyProgram {
+public interface LoyaltyProgram {
+    int getLoyaltyPoints();
+    void addLoyaltyPoints(int points);
 }

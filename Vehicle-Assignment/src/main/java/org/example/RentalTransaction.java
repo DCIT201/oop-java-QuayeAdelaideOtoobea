@@ -1,23 +1,39 @@
-package com.vehicleRental;
-
-import java.time.LocalDate;
+package org.example;
 
 public class RentalTransaction {
+
     private Customer customer;
     private Vehicle vehicle;
-    private LocalDate rentalDate;
-    private int rentalDays;
+    private int days;
+    private double totalCost;
+    private boolean isReturned;
 
-    public RentalTransaction(Customer customer, Vehicle vehicle, int rentalDays) {
+    public RentalTransaction(Customer customer, Vehicle vehicle, int days, double totalCost) {
         this.customer = customer;
         this.vehicle = vehicle;
-        this.rentalDays = rentalDays;
-        this.rentalDate = LocalDate.now();
+        this.days = days;
+        this.totalCost = totalCost;
+        this.isReturned = false;
     }
 
-    public String generateInvoice() {
-        double totalCost = vehicle.calculateRentalCost(rentalDays);
-        return String.format("Invoice:\nCustomer: %s\nVehicle: %s\nRental Days: %d\nTotal Cost: %.2f",
-                customer.getName(), vehicle.getModel(), rentalDays, totalCost);
+    public Customer getCustomer() { return customer; }
+    public Vehicle getVehicle() { return vehicle; }
+    public int getDays() { return days; }
+    public double getTotalCost() { return totalCost; }
+    public boolean isReturned() { return isReturned; }
+
+    public void markReturned() {
+        this.isReturned = true;
+    }
+
+    @Override
+    public String toString() {
+        return "RentalTransaction{" +
+                "customer=" + customer.getName() +
+                ", vehicle=" + vehicle.getVehicleId() +
+                ", days=" + days +
+                ", totalCost=" + totalCost +
+                ", isReturned=" + isReturned +
+                '}';
     }
 }

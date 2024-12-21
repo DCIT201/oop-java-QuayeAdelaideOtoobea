@@ -3,33 +3,54 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Customer {
-    private String customerId;
+public class Customer implements LoyaltyProgram {
+
     private String name;
-    private List<Vehicle> rentalHistory;
+    private int loyaltyPoints;
+    private int rating; // 0-5 rating
 
-    public Customer(String customerId, String name) {
-        if (customerId == null || name == null) {
-            throw new IllegalArgumentException("Invalid customer details");
+    // Composition: Customer "has a" list of Vehicles they're renting
+    private List<Vehicle> currentRentals;
+
+    public Customer(String name) {
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("Name cannot be null or empty.");
         }
-        this.customerId = customerId;
         this.name = name;
-        this.rentalHistory = new ArrayList<>();
+        this.currentRentals = new ArrayList<>();
+        this.loyaltyPoints = 0;
+        this.rating = 0;
     }
 
-    public String getCustomerId() {
-        return customerId;
+    public String getName() { return name; }
+
+    // LoyaltyProgram interface
+    @Override
+    public int getLoyaltyPoints() { return loyaltyPoints; }
+
+    @Override
+    public void addLoyaltyPoints(int points) {
+        if (points < 0) {
+            throw new IllegalArgumentException("Points cannot be negative.");
+        }
+        this.loyaltyPoints += points;
     }
 
-    public String getName() {
-        return name;
+    public int getRating() { return rating; }
+    public void setRating(int rating) {
+        if (rating < 0 || rating > 5) {
+            throw new IllegalArgumentException("Rating must be between 0 and 5.");
+        }
+        this.rating = rating;
     }
 
+    public List<Vehicle> getCurrentRentals() { return currentRentals; }
     public void addRental(Vehicle vehicle) {
-        rentalHistory.add(vehicle);
+        if (!currentRentals.contains(vehicle)) {
+            currentRentals.add(vehicle);
+        }
     }
-
-    public List<Vehicle> getRentalHistory() {
-        return new ArrayList<>(rentalHistory);
+    public void removeRental(Vehicle vehicle) {
+        currentRentals.remove(vehicle);
     }
 }

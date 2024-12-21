@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="069aee55-2bc5-4dbb-837d-d413cad78b10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/Rentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/RentalAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/RentalTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/com/vehicleRental/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Rental-System/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Rental-System/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Rental-System/src/main/java/com/rental/business/customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Rental-System/src/main/java/com/rental/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Rental-System/src/main/java/com/rental/model/Rentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vehicle-Rental-System/src/main/java/com/rental/model/vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehicle-Assignment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle-Assignment/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehicle-Assignment/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle-Assignment/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vehicle-Assignment/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;QuayeAdelaideOtoobea&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DCIT201/oop-java-QuayeAdelaideOtoobea.git&quot;,
+    &quot;accountId&quot;: &quot;e974b524-c919-49b4-a081-2849f7eadb1e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2qUmo4r5Tnl8mvW477rPUKPm1Lg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/David Quaye/OneDrive/Desktop/L200/DCIT 201/201 ASSIGNMENTS/oop-java-QuayeAdelaideOtoobea/Vehicle-Rental-System/src/main/java/com/rental/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="069aee55-2bc5-4dbb-837d-d413cad78b10" name="Changes" comment="" />
+      <created>1734725700590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734725700590</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Vehicle-Rental-System/src/main/java/com/rental/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/../Vehicle-Rental-System/src/main/java/com/rental/model/vehicle.java</url>
+          <line>2</line>
+          <properties field="numberPlate" class="com.rental.model.vehicle" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
